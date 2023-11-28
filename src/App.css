@@ -1,38 +1,187 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
+}
+.font-face {
+  font-family: "Bowlby_One";
+  letter-spacing: 2px;
+}
+.color{
+  color: #DB1244;
+}
+.font-face2 {
+  font-family: "Open_Sans";
+  letter-spacing: 2px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.botonAni{
+  background-color: #DB1244;
+  margin: 1%;
+  padding: 0.5%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header{
+  position: fixed;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.sesion{
+  padding-left: 17%;
+  width:83%;
+  height: 140vh;
+  opacity: 1;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.205)), url('./img/chuleton-destacado.jpg');
+  background-size: cover;
+  background-repeat: no-repeat, no-repeat;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  background-attachment: fixed;
+  
+}
+
+header{
+  background-color: white;
+  justify-content: left;
+  width: 17%;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  
+}
+ul{
+  padding: 0%;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #E39E0B;
+  -webkit-text-stroke: 0.7px black;
+  font-size: 120%;
+}
+nav ul li:hover{
+  font-size: 125%;
+}
+
+.logo{
+  width: 100%;
+}
+nav ul{
+  list-style: none;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: column;
+  align-items: center;
+}
+nav ul li{
+  padding: 3%;
+  transition: font-size 0.15s;
+}
+
+.inicioB{
+  background-color: #DB1244;
+  padding: 0.5%;
+  float: right;
+  margin: 1%;
+}
+button a{
+  text-decoration: none;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.titulo{
+  color: white;
+  text-align: center;
+  -webkit-text-stroke: 1px black;
+  font-size: 250%;
+}
+.inicio{
+  float: right;
+  margin: 1% !important;
+  padding: 0.7% !important;
+}
+.divBotones{
+  height: 12vh;
+}
+.divTitulo{
+  height: 22vh;
+}
+.redes{
+  display: flex;
+  justify-content: center;
+  padding-top: 30%;
+}
+.imagen-logo{
+  width: 66vh;
+}
+.divFooter{
+  padding: 2%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.iconos{
+  padding: 3%;
+}
+.iconos svg {
+  transition: width 0.15s;
+  transition: height 0.15s;
+}
+.iconos svg:hover{
+  width: 110%; 
+  height: 110%;
+}
+
+footer{
+  background-color: rgba(0, 0, 0, 0.664);
+  color: white;
+}
+*, *::before, *::after {
+  box-sizing:unset;
+}
+
+.botonReg{
+  padding-top: 2%;
+}
+
+.carta{
+  background-color: black;
+  padding-left: 18%;
+  padding-top: 1%;
+  width:83%;
+  height: 150vh;
+  display: flex;
+  justify-content: space-around;
+}
+.cartas1{
+  background-color: #DB1244;
+  height: 30%;
+  width: 48%;
+}
+.cartas2{
+  background-color: #E39E0B;
+  height: 30%;
+  width: 48%;
+}
+
+
+
+.button {
+  background-color: #DB1244;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px 5px 5px 5px;
+  -webkit-text-stroke: 0.5px black;
+}
+
+
+/*Bounce*/
+@keyframes kreep {
+  to { transform: scale(1.1); }
+}
+
+h1.kreep {
+display: inline-block;
+/*name-duration-function(ease,eas-in,linear)-delay-count-direction */
+animation: kreep 0.6s ease 4s infinite alternate;
 }
