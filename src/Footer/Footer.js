@@ -5,7 +5,7 @@ import React from "react";
 
 function Footer() {
     return (
-        <div class="divFooter my-5">
+        <div class="divFooter">
                 <footer >
                 <div class="container p-4">
                     <div class="row">

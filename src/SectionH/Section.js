@@ -18,7 +18,9 @@ function Section() {
       </center>
         <Titulo></Titulo>
       <BotonReg></BotonReg>
-      <Footer></Footer>
+      <div class="divFooter my-5">
+        <Footer></Footer>
+      </div>
     </div>
   );
 }

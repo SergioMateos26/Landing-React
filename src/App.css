@@ -27,7 +27,7 @@ header{
   width:83%;
   height: 140vh;
   opacity: 1;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.205)), url('./img/chuleton-destacado.jpg');
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.205)), url('./img/fuego.jpg');
   background-size: cover;
   background-repeat: no-repeat, no-repeat;
   display: flex;
@@ -51,7 +51,7 @@ ul{
 nav ul li a{
   text-decoration: none;
   color: #E39E0B;
-  -webkit-text-stroke: 0.7px black;
+  -webkit-text-stroke: 0.6px black;
   font-size: 120%;
 }
 nav ul li:hover{
@@ -119,45 +119,122 @@ button a{
   transition: width 0.15s;
   transition: height 0.15s;
 }
-.iconos svg:hover{
-  width: 110%; 
-  height: 110%;
-}
 
 footer{
-  background-color: rgba(0, 0, 0, 0.664);
+  background-color: rgba(0, 0, 0, 0.728);
   color: white;
+}
+.colorF{
+  background-color: black;
+}
+.footerC{
+  border-top: 1px solid #E39E0B;
+  padding-top: 1%;
+  padding-left: 17%;
+
 }
 *, *::before, *::after {
   box-sizing:unset;
 }
 
 .botonReg{
-  padding-top: 2%;
+  padding-top: 1%;
 }
 
 .carta{
   background-color: black;
-  padding-left: 18%;
-  padding-top: 1%;
+  height: 120vh;
+  padding-left: 17%;
   width:83%;
-  height: 150vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.cartas{
+  height: 100%;
+  width: 100%;
+}
+#carta1{
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('./img/burger-valencia-003.jpg');
+  background-position: center ;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.texto1{
+  color: white;
+}
+.textos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: justify;
+}
+p{
+  padding-top: 3%;
+  width: 90%;
+}
+.burguer{
+  border-bottom: 2px solid #E39E0B ;
+}
+#carta2{
+  background-image: linear-gradient(to right,  rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('./img/burger-valencia-002.jpg');
+  background-position: center ;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#carta3{
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('./img/burger-valencia-001.jpg');
+  background-position: center ;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contenedor{
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.200), rgba(0, 0, 0, 0.200)), url('./img/fuego.jpg');
+  background-size: cover;
+  background-repeat: no-repeat, no-repeat;
+  padding-left: 17%;
+  width: 83%;
+  height: 100vh;
+}
+.formulario{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 3%;
+  color: black;
+  height: auto;
+  width: 93%;
+  background-color: rgba(0, 0, 0, 0.21);
+}
+.form-control{
+  padding: 1% 0% !important;
+}
+iframe{
+  width: 200% !important;
+  height: 100%;
+  padding-left: 5%;
+  border-left: #E39E0B solid 4px;
+}
+.forms{
+  padding-right: 3%;
+}
+.margen{
+  margin: 0.5%;
+}
+.equipo{
   display: flex;
   justify-content: space-around;
+  padding-top: 5%;
+  width: 90%;
 }
-.cartas1{
-  background-color: #DB1244;
-  height: 30%;
-  width: 48%;
+.cuadrado{
+  background-color: white;
+  width: 25%;
+  border-radius: 7px;
 }
-.cartas2{
-  background-color: #E39E0B;
-  height: 30%;
-  width: 48%;
+.agustar{
+  width: 90%;
 }
-
-
-
 .button {
   background-color: #DB1244;
   color: white;

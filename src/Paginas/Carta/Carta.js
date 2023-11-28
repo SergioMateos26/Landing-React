@@ -5,11 +5,13 @@ import Header from '../../Header/Header';
 import Section from '../../SectionC/Section';
 
 
+
 function Carta() {
   return (
       <div>
        <Header></Header>
        <Section></Section>
+      
       </div>
   );
 }

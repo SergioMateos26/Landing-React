@@ -8,12 +8,12 @@ function Nav() {
         <nav>
             <ul className='font-face'>
                 <li><a href="/home">INICIO</a></li>
-                <li><a href="/carta">CARTA</a></li>
+                <li><a href="/carta">HAMGURGUESAS</a></li>
                 <li><a href="#">HACER UN PEDIDO</a></li>
                 <li><a href="#">RESERVAS</a></li>
                 <li><a href="#">CONTACTO</a></li>
                 <li><a href="#">RESTAURANTES</a></li>
-                <li><a href="#">NUESTRA HISTORIA</a></li>
+                <li><a href="/informacion">MAS INFORMACION</a></li>
             </ul>
         </nav>
         );
